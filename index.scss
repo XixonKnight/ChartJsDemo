@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.col {
+    float: left;
+}
+
+.col-5 {
+    width: 50%;
+}
+
+.wrapper {
+    .col-5 {
+        padding: 20px;
+    }
+}
